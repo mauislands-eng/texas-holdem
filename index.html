@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Texas Hold'em vs Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Texas Hold'em</h1>
+
+  <div class="table">
+
+    <div class="player">
+      <h2>You</h2>
+      <div id="player-cards" class="cards"></div>
+    </div>
+
+    <div class="community">
+      <h2>Community Cards</h2>
+      <div id="community-cards" class="cards"></div>
+    </div>
+
+    <div class="player">
+      <h2>Bot</h2>
+      <div id="bot-cards" class="cards"></div>
+    </div>
+
+  </div>
+
+  <div class="controls">
+    <button id="deal-btn">Deal</button>
+    <button id="next-btn" disabled>Next Stage</button>
+  </div>
+
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
