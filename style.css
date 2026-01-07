@@ -56,3 +56,55 @@ button {
   margin-top: 15px;
   font-size: 18px;
 }
+
+/* ===========================
+   MOBILE RESPONSIVE LAYOUT
+   =========================== */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .table {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .player, .community {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .cards {
+    gap: 6px;
+  }
+
+  .card {
+    width: 40px;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  #status {
+    font-size: 16px;
+  }
+}
